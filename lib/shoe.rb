@@ -10,6 +10,7 @@ class Shoe
     if brand.include?
     else
      BRANDS << brand 
+   end
   end
 
   def cobble
