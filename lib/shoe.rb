@@ -11,7 +11,7 @@ class Shoe
        if shoebrand.uniq?
      BRANDS << brand 
     end
-     BRANDS.uniq
+     BRANDS
   end
 
   def cobble
